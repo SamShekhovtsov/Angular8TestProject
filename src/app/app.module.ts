@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ImgloaderrorDirective } from './imgloaderror.directive';
+import { ScrolltoidDirective } from './scrolltoid.directive';
+import { SecondTaskComponent } from './Tasks/second-task/second-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImgloaderrorDirective
+    ImgloaderrorDirective,
+    ScrolltoidDirective,
+    SecondTaskComponent
   ],
   imports: [
     BrowserModule,
