@@ -3,12 +3,15 @@
 # compiled output
 /dist
 /tmp
+app/**/*.js
+app/**/*.js.map
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
 
 # dependencies
 /node_modules
+bower_components/
 
 # profiling files
 chrome-profiler-events*.json
@@ -40,7 +43,14 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+.ng_pkg_build/
+
+# e2e
+e2e/*.js
+e2e/*.map
+e2e_test.*
 
 # System Files
+**/.DS_Store
 .DS_Store
 Thumbs.db
